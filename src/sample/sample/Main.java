@@ -21,18 +21,13 @@ public class Main extends Application {
         loader.setLocation(ControllerWelcome.class.getResource("Welcome.fxml"));
 
 
-       // Parent root = FXMLLoader.load(Controller.class.getResource("Welcome.fxml"));
-      //  primaryStage.setTitle("Hello World");
-      //  primaryStage.setScene(new Scene(root, 300, 275));
-      //  primaryStage.show();
 
         rootLayout=(Pane)loader.load();
         ControllerWelcome controllerWelcomeTableForm = loader.getController();
 
         controllerWelcomeTableForm.Init(this);
         stage=new Stage();
-      //  controllerTableForm.setPstage(stage);
-       // controllerTableForm.Init();
+
         stage.setTitle("Char Welcome");
 
 
@@ -45,26 +40,10 @@ public class Main extends Application {
 
 
 
-        System.out.println("fuck");
 
 
 
-       /* Thread.sleep(3000);
-        try {
-            controllerTableForm.send();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }*/
 
-        /*while(true){
-
-              *//*  comandSendler.send('i');
-                comandSendler.send('n');
-                comandSendler.send('g');*//*
-
-            System.out.println("2");
-        }
-*/
     }
 
 
