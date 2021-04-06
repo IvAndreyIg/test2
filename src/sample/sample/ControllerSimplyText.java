@@ -61,9 +61,9 @@ public class ControllerSimplyText {
 
 
                     try {out.println("give:History");
-                        Thread.sleep(800);
+                        Thread.sleep(30);
                         out.println("give:Online");
-                        Thread.sleep(800);
+                        Thread.sleep(30);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }

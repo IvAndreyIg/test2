@@ -28,7 +28,7 @@ public class Main extends Application {
         controllerWelcomeTableForm.Init(this);
         stage=new Stage();
 
-        stage.setTitle("Chat Wellcum");
+        stage.setTitle("Chat Wellcome");
 
 
 
